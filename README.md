@@ -1,8 +1,8 @@
 # KUBIG_2022_FALL
 ### 고려대학교 유일의 데이터 사이언스 학회
 
+![22-2 포스터](https://user-images.githubusercontent.com/79436275/177720777-73ebeecc-046d-4915-a7bb-2115b87669f3.png)
 
-![쿠빅 2022 포스터](https://cf-ea.everytime.kr/attach/558/50796875/everytime-1655885009173.jpg?Expires=1656052394&Key-Pair-Id=APKAICU6XZKH23IGASFA&Signature=cwaDeLnRA4kXH0xPnp8QdTcvz88M8J5-lMD4fd67IFDEwLAUkiLX9I4hTFeJQoa1BJAcRAUWy7kT8hm4-J2u8Esmmqq6Ve0Baui-dZnn5Y0NfMWTS2RLahijg7QQ4RFfThj7pwDAjHiZ1xYvpMCG2DIy9bECvk6nliuYlzIJOQflXGCV4fLmTxq8aikCSVuSEFiqUpqnlfaMxMdEHnFcg1MWFl1swNgYGQqvf2uaiVDKrmcL5tcCqeUvJcDkhHkyUi857t-0MEIfimVN-rZjzOp28vQZyhc8bIjynOFdWwHaHwJmTZK9W-RX85mEJxgEa6tD044Euh4AwGlvfxm2cw__)
 
 
 * 지원자격
