@@ -34,8 +34,7 @@
 # [커리큘럼]
 
 |**주차**|**날짜**|**주제**|**Dive into Deep learning**|**유튜브 강의**|**과제**|
-|------|---|---|---|---|
-
+|---|---|---|---|---|
 |1주차|2022년 7월 7일|분반 OT|X|X|
 |2주차|2022년 7월 14일|딥러닝 모델 기초|3. Linear Neural Network|2. Linear Model  #3. Gradient Descent  #4. Back Propagation & Autograd  #5. Linear Regression Pytoch  #9. Softmax Classifier|
 |3주차|2022년 7월 21일|다층퍼셉트론과 연산 상세|4. Multilayer Perceptron|-|
@@ -43,4 +42,3 @@
 |5주차|2022년 8월 4일|Advanced CNN|7. Modern CNN|11. Advanced CNN|
 |6주차|2022년 8월 11일|RNN|8. RNN|12. RNN-Basics|
 |7주차|2022년 8월 18일|Advanced RNN|9. Modern RNN|13. RNN-Classification|
-|8주차|2022년 8월 25일|
