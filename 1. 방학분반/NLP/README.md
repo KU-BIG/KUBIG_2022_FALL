@@ -32,7 +32,7 @@
 |  1주차  | 2022.07.07 | **스터디 OT, 자연어처리란?** | 신경망 복습, 단어의 분산 표현 | 
 |  2주차  | 2022.07.14 | **텍스트 전처리, 언어모델** | text preprocessing, BoW  | 
 |  3주차  | 2022.07.21 | **Word Embedding** | gensim, word2vec (CBOW, Skipgram) 구현 | 
-|  4주차  | 2022.07.28 | **Word2Vec 개선, RNN** | 사전학습된 워드임베딩, RNN | 
+|  4주차  | 2022.07.28 | **사전학습된 워드임베딩, RNN** | GloVe, FastText, RNN | 
 |  5주차  | 2022.08.04 | **Modeling PT.1** | LSTM, GRU, Seq2Seq |  
 |  6주차  | 2022.08.11 | **Modeling PT.2** | Attention, Transformer |  
 |  7주차  | 2022.08.18 | **Modeling PT.3** | 사전학습모델(BERT, GPT, BART) |
