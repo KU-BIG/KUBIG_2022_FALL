@@ -33,7 +33,7 @@
 
 # [커리큘럼]
 
-|**주차**|**날짜**|**주제**|**Dive into Deep learning**|**유튜브 강의**|**과제**|
+|**주차**|**날짜**|**주제**|**Dive into Deep learning**|**유튜브 강의**|
 |---|---|---|---|---|
 |1주차|2022년 7월 7일|분반 OT|X|X|
 |2주차|2022년 7월 14일|딥러닝 모델 기초|3. Linear Neural Network|2. Linear Model  #3. Gradient Descent  #4. Back Propagation & Autograd  #5. Linear Regression Pytoch  #9. Softmax Classifier|
