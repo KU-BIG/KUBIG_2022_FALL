@@ -15,5 +15,5 @@
 - **분반장:** 김유민
 
 ## CV
-- CV 스터디에서는 image classification, object detection, neural style transfer, GANs 등, 딥러닝을 이용한 **컴퓨터 비전에서 인기있는 주제들**에 대하여 공부합니다.
+- CV 스터디에서는 image classification, object detection, neural style transfer, GANs 등, 딥러닝을 이용한 **컴퓨터 비전에서 인기있는 주제**를 공부합니다.
 - **분반장:** 김혜림
