@@ -6,10 +6,9 @@
 
 "한국어 뉴스 헤드라인을 이용하여, 뉴스의 주제를 분류하는 알고리즘 개발"
 
-**0. DL library : pytorch & huggingface**
+### **0. DL library : pytorch & huggingface**
 
-**1. DATA 구성**
-
+### **1. DATA 구성**
     * index : 헤드라인 인덱스
     * title : 뉴스 헤드라인
     * topic_idx : 뉴스 주제 인덱스 값(label)
