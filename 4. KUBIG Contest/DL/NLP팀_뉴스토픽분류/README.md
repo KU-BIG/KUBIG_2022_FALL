@@ -14,19 +14,17 @@
    * topic_idx : 뉴스 주제 인덱스 값(label)
     
 **2. DATA Preprocessing**
-
-    * 품사태깅
-    * 숫자, 특수문자 제거 + 한 글자 미만 제거
-    * 문장부호 제거
-    * 영어/한자 --> 한글로 변환
-    * 추가 전처리 : 이상문자열 제거
+  * 품사태깅
+  * 숫자, 특수문자 제거 + 한 글자 미만 제거
+  * 문장부호 제거
+  * 영어/한자 --> 한글로 변환
+  * 추가 전처리 : 이상문자열 제거
 
 **3. Modeling**
-
-    * Roberta-small
-    * Roberta-base
-    * Roberta-large
-    * Koelectra-base
+  * Roberta-small
+  * Roberta-base
+  * Roberta-large
+  * Koelectra-base
 
 
 ### **RESULT : Accuracy**
