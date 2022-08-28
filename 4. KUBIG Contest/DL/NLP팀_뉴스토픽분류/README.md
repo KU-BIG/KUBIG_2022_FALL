@@ -9,9 +9,9 @@
 ### **0. DL library : pytorch & huggingface**
 
 ### **1. DATA 구성**
-    * index : 헤드라인 인덱스
-    * title : 뉴스 헤드라인
-    * topic_idx : 뉴스 주제 인덱스 값(label)
+   * index : 헤드라인 인덱스
+   * title : 뉴스 헤드라인
+   * topic_idx : 뉴스 주제 인덱스 값(label)
     
 **2. DATA Preprocessing**
 
