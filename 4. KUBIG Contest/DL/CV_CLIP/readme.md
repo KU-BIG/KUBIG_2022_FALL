@@ -6,8 +6,8 @@ CLIP-OpenAI Analysis and Application
 ![image](https://user-images.githubusercontent.com/87689944/187473772-32fe17bf-61d5-4805-87dd-9db9e181b7a1.png)
 
 기존의 state of art computer vision 모델은 지도학습 기반으로, 일반성과 활용성에 제약이 많으나,
-CLIP의 경우 라벨이 아닌, 자연어 캡션을 통해 학습(natural language supervision)함으로써 much broader source of supervision을 leverage할 수 있는 모델입니다.
-
+CLIP의 경우 라벨이 아닌, 자연어 캡션을 통해 학습(natural language supervision)함으로써 much broader source of supervision을 leverage할 수 있고,
+CV의 여러 분야에서 우수한 Zero-shot Learning 성능을 보인 모델입니다.
 
 CLIP 논문 [Learning Transferable Visual Models From Natural Language Supervision]
 
