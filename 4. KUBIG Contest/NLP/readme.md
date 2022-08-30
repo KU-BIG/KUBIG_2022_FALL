@@ -21,3 +21,8 @@
 
 ## 4. 메일링 서비스
 Gmail을 연동해 요약문을 메일링해주는 이메일 전송모듈 작성
+
+
+#### [메일링 서비스 화면]
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/69797157/187336490-09b3c1e8-f9f9-4d9e-b35b-e7aec5388df1.png">
+
