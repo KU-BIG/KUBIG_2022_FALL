@@ -1,6 +1,6 @@
 CLIP-OpenAI Analysis and Application
 -----------------------
-##### Team : 15기 김진수, 이제윤, 박지우 16기 엄기영
+##### Team : 15기 김진수, 이제윤, 박지우, 16기 엄기영
 
 ### CLIP ::
 ![image](https://user-images.githubusercontent.com/87689944/187473772-32fe17bf-61d5-4805-87dd-9db9e181b7a1.png)
