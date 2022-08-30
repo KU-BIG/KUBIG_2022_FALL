@@ -6,6 +6,9 @@
 - **팀원** : 김제성, 김지후, 남정재, 이병주, 이승은
 <br/>
 
+#### [금융요약 메일링 서비스 화면]
+![image](https://user-images.githubusercontent.com/69797157/187451082-118f5139-ded8-49ca-8fdb-09c5d18f2adc.png)
+
 ## 2. 사용 데이터셋
 - AI hub 요약문 및 레포트 생성데이터
 - 네이버 금융 주요 뉴스 크롤링 데이터
@@ -22,5 +25,4 @@
 ## 4. 메일링 서비스
 Gmail을 연동해 요약문을 메일링해주는 이메일 전송모듈 작성
 
-### [금융요약 메일링 서비스 화면]
-![image](https://user-images.githubusercontent.com/69797157/187451082-118f5139-ded8-49ca-8fdb-09c5d18f2adc.png)
+
