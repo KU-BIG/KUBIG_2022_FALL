@@ -13,3 +13,21 @@
 
 *** 
 ## 스터디 커리큘럼
+
+week 1.시계열 데이터의 특성
+
+week 2. 지수평활법
+
+week 3. ARIMA 모형1
+
+week 4. ARIMA 모형2
+
+week 5. ARIMA 모형3
+
+week 6. ARIMA 모형4
+
+week 7. 논문 코드 구현 및 우수코드 실습
+
+*** 
+##  자료
+[티스토리](https://kubig-2022-2.tistory.com/category/%EC%8B%AC%ED%99%94%20%EC%8A%A4%ED%84%B0%EB%94%94/%EC%8B%9C%EA%B3%84%EC%97%B4)
