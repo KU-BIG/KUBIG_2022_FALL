@@ -3,8 +3,6 @@
 ### 스터디원
 - - -
 15기 공도웅 장수혁 최경석
-
-
 16기 엄기영 박민규
 ---
 ### 스터디 개설 목적
@@ -21,10 +19,20 @@
 ### 커리큘럼
 - - - 
 1주차) Object Detection : Faster R-CNN (2015), YOLO(v1) (2016)
+
+
 2주차) Image Segmentation : U-Net (2015), FCN (2016)
+
+
 3주차) Generative Model : GAN (2014)
+
+
 4주차) Attention is all you need, Transformer (2017)
+
+
 5주차) Transformer for Image Recognition at Scale, ViT (2020)
+
+
 6주차) Hiearchical Vision Transformer using Shifted Windows, Swin Transformer (2021)
 ---
 ### 자료
