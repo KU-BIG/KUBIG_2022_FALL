@@ -72,7 +72,8 @@ Non-destructive transformations (not to add or lose the information)
 **5. Learning Scheduler, Optimizer**
 - StepLR  
   > step_size = 3, gamma = 0.5  
-  > Decays the learning rate of each parameter in half once per 3 epochs Adam  
+  > Decays the learning rate of each parameter in half once per 3 epochs 
+- Adam  
 
 <br/>
 
