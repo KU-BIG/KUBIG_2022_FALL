@@ -82,6 +82,6 @@ Non-destructive transformations (not to add or lose the information)
 
 ## Code Descriptions
 1. DACON_AISR_TRIAL
-   > EDSR, SRGAN, SWINIR
+- EDSR, SRGAN, SWINIR
 2. DACON_AISR_BEST
-   > RRDB, RRDB+(Self-ensemble)
+- RRDB, RRDB+(Self-ensemble)
