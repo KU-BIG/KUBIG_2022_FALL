@@ -2,6 +2,7 @@
 <img width="60%" src="https://user-images.githubusercontent.com/97013710/210364441-89d27d3f-e22e-4156-ad14-b1a73665dd46.jpeg">
 맑은 눈의 광인이 되어 세상을 바라보자! 
 
+
 Team : 15기 장수혁, 염윤석, 최민경, 16기 박민규
 
 <br/><br/>
