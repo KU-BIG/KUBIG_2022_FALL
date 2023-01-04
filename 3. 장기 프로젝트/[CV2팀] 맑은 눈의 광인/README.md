@@ -59,7 +59,7 @@ Non-destructive transformations (not to add or lose the information)
   > Decays the learning rate of each parameter in half once per 3 epochs Adam  
 
 **6. Post Processing**
-- [Geometric Self-Ensemble](https://arxiv.org/pdf/1707.02921v1.pdf)
+- Geometric Self-Ensemble[https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
 
 ## Main configuration & Hyperparameters
 '''
