@@ -1,4 +1,4 @@
-# 양재 허브 인공지능 오픈소스 경진대회
+# 👀 양재 허브 인공지능 오픈소스 경진대회 👀
 <img width="60%" src="https://user-images.githubusercontent.com/97013710/210364441-89d27d3f-e22e-4156-ad14-b1a73665dd46.jpeg">
 맑은 눈의 광인이 되어 세상을 바라보자! 
 
@@ -41,12 +41,16 @@ GPU: A100-SXM4-40GB * 1(Main) , Tesla T4*1(Sub)
 - Train patches : original 1640 images → 26240(1640*16) patches (X4 downsampling, non-overlapping)  
 - Test patches: original 18 images → 882(18*49) patches (X4 downsampling, overlapping(to remove border artifacts)) 
 
+<br/>
+
 **2. Data Transform**  
 Non-destructive transformations (not to add or lose the information)
 - Flip  
 - Transpose  
 - RandomRotate  
 - ShiftScaleRotate  
+
+<br/>
 
 **3. Training Methods**
 - EarlyStopping  
@@ -56,15 +60,21 @@ Non-destructive transformations (not to add or lose the information)
   > pretrained model : [RRDB_PSNR_x4.pth](https://github.com/xinntao/ESRGAN/tree/master/models)(the PSNR-oriented model with high PSNR performance)  
   > Retraining entire model : Judging that the similarity between DF2K dataset(pretrained model) and our training datset is small  
 
+<br/>
+
 **4. Loss Function**
 - L1 loss + L2 loss (2:1)
   > L2 loss : PSNR is based on MSE  
   > L1 loss: For better convergence [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
 
+<br/>
+
 **5. Learning Scheduler, Optimizer**
 - StepLR  
   > step_size = 3, gamma = 0.5  
   > Decays the learning rate of each parameter in half once per 3 epochs Adam  
+
+<br/>
 
 **6. Post Processing**
 - Geometric Self-Ensemble [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
@@ -96,6 +106,7 @@ Non-destructive transformations (not to add or lose the information)
 ## Code Descriptions
 1. DACON_AISR_TRIAL
 - EDSR, SRGAN, SWINIR
+
 
 2. DACON_AISR_BEST
 - RRDB, RRDB+(Self-ensemble)
