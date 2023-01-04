@@ -16,7 +16,7 @@
 품질이 저하된 저해상도 촬영 이미지(512x512)를 고품질의 고해상도 촬영 이미지(2048x2048)로 생성  
 
 **[평가 산식]**  
-PSNR(Peak Signal-to-Noise Ratio) = $10log_{10}(R^2/MSE)$  
+PSNR(Peak Signal-to-Noise Ratio) = $10log_{10}(R^2/MSE)$
 -	생성 혹은 압축된 영상의 화질에 대한 “손실 정보”를 평가
 -	손실이 적을수록(=화질이 좋을 수록) 높은 값  
 
@@ -59,7 +59,7 @@ Non-destructive transformations (not to add or lose the information)
   > Decays the learning rate of each parameter in half once per 3 epochs Adam  
 
 **6. Post Processing**
-- Geometric Self-Ensemble[https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
+- Geometric Self-Ensemble [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
 
 ## Main configuration & Hyperparameters
 '''
