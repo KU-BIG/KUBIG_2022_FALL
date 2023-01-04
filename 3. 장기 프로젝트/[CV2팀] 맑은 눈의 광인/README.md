@@ -2,6 +2,7 @@
 <img width="60%" src="https://user-images.githubusercontent.com/97013710/210364441-89d27d3f-e22e-4156-ad14-b1a73665dd46.jpeg">
 맑은 눈의 광인이 되어 세상을 바라보자! 
 
+
 ## Project Descriptions
 
 **Link** : [AI 양재 허브 인공지능 오픈소스 경진대회 (DACON)](https://dacon.io/competitions/official/235977/overview/description)
@@ -20,12 +21,15 @@ PSNR(Peak Signal-to-Noise Ratio) = $10log_{10}(R^2/MSE)$
 -	생성 혹은 압축된 영상의 화질에 대한 “손실 정보”를 평가
 -	손실이 적을수록(=화질이 좋을 수록) 높은 값  
 
-## Score(Public)
+
+## 👣 Score(Public)
 RRDB+ : 23.40812(38th)
 
-## Environment
+
+## 🌐 Environment
 Colab Pro+  
 GPU: A100-SXM4-40GB * 1(Main) , Tesla T4*1(Sub)
+
 
 ## 🔥 Competition Strategies
 
@@ -60,6 +64,7 @@ Non-destructive transformations (not to add or lose the information)
 
 **6. Post Processing**
 - Geometric Self-Ensemble [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
+
 
 ## Main configuration & Hyperparameters
 '''
