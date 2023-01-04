@@ -27,7 +27,7 @@ RRDB+ : 23.40812(38th)
 Colab Pro+  
 GPU: A100-SXM4-40GB * 1(Main) , Tesla T4*1(Sub)
 
-## Competition Strategies
+## 🔥 Competition Strategies
 
 **1. Patches(for data augmentation)**  
 - Train patches : original 1640 images → 26240(1640*16) patches (X4 downsampling, non-overlapping)  
@@ -84,5 +84,6 @@ Non-destructive transformations (not to add or lose the information)
 ## Code Descriptions
 1. DACON_AISR_TRIAL
 - EDSR, SRGAN, SWINIR
+
 2. DACON_AISR_BEST
 - RRDB, RRDB+(Self-ensemble)
