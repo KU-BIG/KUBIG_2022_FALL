@@ -79,8 +79,10 @@ Non-destructive transformations (not to add or lose the information)
 
 **6. Post Processing**
 - Geometric Self-Ensemble [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
+  > <img width="751" alt="KakaoTalk_Photo_2023-01-04-11-58-49" src="https://user-images.githubusercontent.com/55012723/210476203-015eac00-d0e0-4d10-8eb5-a772a9910097.png">
 
-<br/><br/>
+
+<br/><br/> 
 
 ## Main configuration & Hyperparameters
 '''
