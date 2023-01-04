@@ -50,7 +50,7 @@ Non-destructive transformations (not to add or lose the information)
 
 **4. Loss Function**
 - L1 loss + L2 loss (2:1)
-  > L2 loss : PSNR is based on MSE
+  > L2 loss : PSNR is based on MSE  
   > L1 loss: For better convergence [https://arxiv.org/pdf/1707.02921v1.pdf](https://arxiv.org/pdf/1707.02921v1.pdf)
 
 **5. Learning Scheduler, Optimizer**
@@ -77,6 +77,7 @@ Non-destructive transformations (not to add or lose the information)
 4. train :  
    > pochs: 7  
    > optim_g: {type: Adam, lr: 1e-4, betas: [0.9, 0.99]}  
+
 '''
 
 ## Code Descriptions
