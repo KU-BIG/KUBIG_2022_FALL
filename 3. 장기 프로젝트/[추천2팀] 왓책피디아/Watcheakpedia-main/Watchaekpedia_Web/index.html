@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Cerulean 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131223
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="{{url_for('static',filename='default.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url_for('static',filename='fonts.css')}}" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><span class="icon icon-cog"></span><a href="#">KUBIG 장기 프로젝트 <br> Cross-Media Recommendation System</a></h1>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+					<li><a href="https://koreascience.kr/article/JAKO202111065911074.pdf" accesskey="2" title="">Paper Link</a></li>
+					<li><a href="#" accesskey="3" title="">Github</a></li>
+					<li><a href="#" accesskey="4" title="">Notion</a></li>
+					<li><a href="#" accesskey="5" title="">Tistory</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="page-wrapper">
+	<div id="page" class="container" align='left'>
+		<div class="title">
+			<h2>Cross-Media based Book Recommendation System</h2>
+		</div>
+		<p>추천시스템 2팀(15기 우명진, 16기 임정준/하예은)은  <strong>‘사용자 영화취향을 반영한 크로스미디어 플랫폼 도서 추천 시스템’</strong>을 기반으로 영화 및 도서 평점 데이터를 기반으로, 아직 읽지 않은 도서를 사용자에게 추천하는 시스템을 개발하였습니다. 상대적으로 접근성이 용이하고 풍부한 영화 데이터를 활용하여 도서 추천 결과의 예측성을 개선하고, 이를 모델에 반영하였습니다. 이번 프로젝트를 통하여 추천시스템의 기본 개념들을 익히고, 개괄적인 Modeling 및 성능 개선을 넘어, 실제로 모델을 어떻게 Serving하는지까지 간단하게 구현할 수 있었습니다. </p>
+        <p>Hybrid Recommendation Model로 많이 사용되는 LightFM 모델을 활용하여 모델링을 진행하였으며, 이를 Goorm IDE에서 Flask를 활용하여 실제 Web으로 간단하게 구현하였습니다. 데이터는 Selenium기반으로 Watchapedia의 댓글 및 평점 데이터를 Crawling하여 확보하였으며, 개괄적으로 영화 2200편, 도서 250권, 총 평점 데이터 650,000건을 활용하였습니다. </p>
+        <p>하단에 보이는 4가지의 사진을 통해서 <strong>{{user}}</strong>님에게 추천되는 4가지 도서를 안내합니다. '새로고침'을 누르시면 다른 사용자에게 추천되는 다른 도서들도 확인하실 수 있습니다.
+        </p>
+	</div>
+</div>
+<div class="wrapper">
+	
+	<div id="portfolio" class="container">
+		<div class="column1">
+			<div class="box"> <a href="{{link1}}"><img src="{{idx1}}" alt="" class="image image-full" /></a>
+				<h3>{{book1}}</h3>
+				<p>{{book1_information}}</p>
+				<a href="{{link1}}" class="button button-small">More Information</a> </div>
+		</div>
+		<div class="column2">
+			<div class="box"> <a href="{{link2}}"><img src="{{idx2}}" alt="" class="image image-full" /></a>
+				<h3>{{book2}}</h3>
+				<p>{{book2_information}}</p>
+				<a href="{{link2}}" class="button button-small">More Information</a> </div>
+		</div>
+		<div class="column3">
+			<div class="box"> <a href="{{link3}}"><img src="{{idx3}}" alt="" class="image image-full" /></a>
+				<h3>{{book3}}</h3>
+				<p>{{book3_information}}</p>
+				<a href="{{link3}}" class="button button-small">More Information</a> </div>
+		</div>
+		<div class="column4">
+			<div class="box"> <a href="{{link4}}"><img src="{{idx4}}" alt="" class="image image-full" /></a>
+				<h3>{{book4}}</h3>
+				<p>{{book4_information}}</p>
+				<a href="{{link4}}" class="button button-small">More Information</a> </div>
+		</div>
+    <div id="three-column" class="container">
+		<div><span class="arrow-down"></span></div>
+		<div id="tbox1">
+			<div class="title">
+				<h2>15기 우명진</h2>
+			</div>
+			<p>Crawling Baseline Design <br> NLP Preprocessing </p>
+			<a href="#" class="button">View More</a> </div>
+		<div id="tbox2">
+			<div class="title">
+				<h2>16기 임정준</h2>
+			</div>
+			<p>Crawling Design & Execution <br> LightFM Model Design <br> Web implementation</p>
+			<a href="#" class="button">View More</a> </div>
+		<div id="tbox3">
+			<div class="title">
+				<h2>16기 하예은</h2>
+			</div>
+			<p>Crawling Dataset Preprocessing <br> Model Hyperparameter Tuning</p>
+			<a href="#" class="button">View More</a> </div>
+	    </div>
+	</div>
+</div>
+<div id="wrapper2">
+	<div id="tools">
+		<div class="title">
+			<h2>Vivamus fermentum nibh</h2>
+		</div>
+		<ul class="tools">
+			<li><a href="#" class="icon icon-legal"></a></li>
+			<li><a href="#" class="icon icon-random"></a></li>
+			<li><a href="#" class="icon icon-key"></a></li>
+			<li><a href="#" class="icon icon-wrench"></a></li>
+			<li><a href="#" class="icon icon-cut"></a></li>
+			<li><a href="#" class="icon icon-filter"></a></li>
+			<li><a href="#" class="icon icon-lock"></a></li>
+		</ul>
+	
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+		<ul class="contact">
+			<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+			<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+			<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+		</ul>
+</div>
+</body>
+</html>
